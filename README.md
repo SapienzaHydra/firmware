@@ -7,6 +7,7 @@ Monorepo del firmware del veicolo a idrogeno **Hydra** (Sapienza).
 | [`dashboard/`](dashboard/) | Cruscotto: ESP32 + display ILI9488 480×320 (velocità, fuel cell, supercap, consumo H₂) |
 | [`lib/hydra-protocol/`](lib/hydra-protocol/) | Strutture dati condivise tra le schede (`VehicleData`) |
 | [`docs/`](docs/) | Architettura, layout del display, immagini |
+| [`prototypes/`](prototypes/) | Esperimenti precedenti (controllo motore via ESC, volante): solo riferimento, non compilati dalla CI |
 
 Le future schede (es. `telemetry/` per la lettura dei sensori) andranno in una nuova cartella accanto a `dashboard/`, usando `lib/hydra-protocol` per parlare la stessa lingua.
 
