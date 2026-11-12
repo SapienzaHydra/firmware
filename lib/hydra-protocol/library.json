@@ -1,0 +1,7 @@
+{
+  "name": "hydra-protocol",
+  "version": "0.1.0",
+  "description": "Strutture dati e protocollo condivisi tra le schede del veicolo Hydra",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
