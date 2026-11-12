@@ -28,6 +28,6 @@ In VS Code apri la cartella `dashboard/` (quella con `platformio.ini`) perché P
 
 ## Regole di lavoro
 
-- `main` è protetto: si lavora su un branch e si apre una Pull Request.
+- Niente push diretti su `main`: si lavora su un branch e si apre una Pull Request.
 - La CI compila tutti i target a ogni push/PR: se è rossa, non si fa merge.
 - Ogni modifica a `lib/hydra-protocol` va verificata su **tutte** le schede che lo usano.
